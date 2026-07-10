@@ -1,0 +1,26 @@
+# Dependencies and build output
+node_modules/
+.next/
+.build-home/
+
+# Runtime data and secrets
+data/
+.jwt-secret
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local tooling and temporary upload workspace
+.github-upload/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
